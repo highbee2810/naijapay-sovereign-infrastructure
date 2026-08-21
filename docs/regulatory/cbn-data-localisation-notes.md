@@ -237,6 +237,7 @@ Determine:
 Where transaction data is stored.
 Which systems process that data.
 Whether any data resides outside Nigeria.
+
 **2. Review Cloud Providers**
 
 Organizations using cloud platforms should verify:
@@ -245,6 +246,7 @@ Data location
 Data residency settings
 Backup locations
 Disaster recovery architecture
+
 **3. Review Third-Party Service Providers**
 
 Many fintechs rely on:
@@ -263,6 +265,7 @@ Data governance policies
 Data protection procedures
 Outsourcing arrangements
 Vendor management frameworks
+
 **5. Maintain Compliance Evidence**
 
 Institutions should be able to demonstrate:
@@ -331,6 +334,7 @@ The Circular does not define:
 Whether administrators must be located in Nigeria.
 Whether support teams can operate from abroad.
 Whether remote access from outside Nigeria is allowed.
+
 **4. Does the Requirement Apply Only to Transaction Data?**
 
 The Circular clearly mentions payment transaction data.
