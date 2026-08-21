@@ -20,10 +20,11 @@ Potential risks to the security and oversight of payment transaction data
 
 To address these concerns, CBN introduced four key requirements:
 
-Disclosure of Ultimate Beneficial Owners (UBOs)
-Localisation of payment transaction data
-Restrictions on excessive market concentration
-Enhanced oversight and compliance monitoring.
+1. Disclosure of Ultimate Beneficial Owners (UBOs)
+2. Localisation of payment transaction data
+3. Restrictions on excessive market concentration
+4. Enhanced oversight and compliance monitoring.
+   
 ### Part 1: Ultimate Beneficial Ownership (UBO) Disclosure
 What is a UBO?
 
