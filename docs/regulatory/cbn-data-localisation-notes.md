@@ -7,6 +7,8 @@
  Date Issued: 15 June 2026
  Applies To: Banks, fintechs, payment service providers, mobile money operators, switches, processors, super agents, and other participants in Nigeria's payments ecosystem.
 ```
+[Link to the document:](https://www.cbn.gov.ng/Out/2026/CCD/CIRCULAR%20ON%20INTRODUCTION%20OF%20MARKET%20STRUCTURE%20REQUIREMENTS,%20DATA%20LOCALISATION,%20ULTIMATE%20BENEFICIAL%20OWNERSHIP%20DISCLOSURE,%20AND%20SYSTEMIC%20OVERSIGHT%20MEASURES%20IN%20THE%20NIGERIA%20PAYMENTS%20SYSTEM.pdf)
+
 ### Executive Summary
 
 The Central Bank of Nigeria (CBN) issued this circular because Nigeria's digital payments industry has grown rapidly in recent years. More Nigerians now transfer money electronically, use mobile banking apps, make card payments, and use fintech services.
@@ -42,7 +44,7 @@ Mr. Ade owns 90% of Company C.
 Although Mr. Ade's name may not appear directly as an owner of Fintech B, he is the Ultimate Beneficial Owner because he ultimately controls the business.
 ```
 
-What Does the Circular Require?
+**What Does the Circular Require?**
 
 All affected financial institutions must:
 
@@ -57,11 +59,12 @@ CBN wants to know who ultimately owns and controls regulated institutions so tha
 Ownership structures are transparent.
 Criminals cannot hide behind complex corporate structures.
 Regulators can better manage financial system risks.
+
 ### Part 2: Data Localisation Requirement
 
 This is one of the most significant parts of the circular and is likely to have the greatest impact on banks and fintech companies.
 
-What Is Data Localisation?
+**What Is Data Localisation?**
 
 Data localisation means that certain data must be kept inside Nigeria instead of being stored in another country.
 
@@ -73,7 +76,7 @@ The Circular states that:
 
 All payment transaction data generated within Nigeria must be stored and managed in Nigeria.
 
-Who Is Affected?
+**Who Is Affected?**
 
 The requirement applies broadly to:
 
@@ -91,65 +94,66 @@ Super Agents
 Licensed payment service providers
 Other institutions facilitating payments in Nigeria
 
-In simple terms:
+**In simple terms:**
 
 If your organization processes, facilitates, stores, routes, settles, or supports payment transactions in Nigeria, this requirement likely applies to you.
 
-What Data Is Covered?
+**What Data Is Covered?**
 
 The Circular specifically refers to:
 
 "Payments transaction data generated within Nigeria."
 
-Examples of Data Likely Covered
+
+**Examples of Data Likely Covered**
 Card Transaction Records
 
 When a customer pays with a debit card:
 
-Card authorization record
-Merchant information
-Transaction amount
-Date and time
-Mobile Money Transactions
+1. Card authorization record
+2. Merchant information
+3. Transaction amount
+4. Date and time
+5. Mobile Money Transactions
 
 When a customer sends money through a mobile wallet:
 
-Sender information
-Receiver information
-Amount transferred
-Transaction reference
-Bank Transfer Records
+1. Sender information
+2. Receiver information
+3. Amount transferred
+4. Transaction reference
+5. Bank Transfer Records
 
 When money moves between accounts:
 
-Account details
-Transaction reference number
-Settlement information
-Processing logs
-Payment Processing Logs
+1. Account details
+2. Transaction reference number
+3. Settlement information
+4. Processing logs
+5. Payment Processing Logs
 
-Systems typically maintain:
+**Systems typically maintain:**
 
-Transaction logs
-Approval records
-Routing information
-Processing records
+1. Transaction logs
+2. Approval records
+3. Routing information
+4. Processing records
 
 These are likely covered because they form part of payment transaction data.
 
-What Does "Stored and Managed in Nigeria" Mean?
+**What Does "Stored and Managed in Nigeria" Mean?**
 
 The Circular uses two important words:
-
+```
 Stored
 Managed
-
+```
 Both requirements must be met.
 
-Stored in Nigeria
+#### Stored in Nigeria
 
 This means the actual transaction data should reside on infrastructure located in Nigeria.
-
+```
 Example
 
 A fintech may currently store transaction records in:
@@ -160,8 +164,8 @@ Singapore
 South Africa
 
 Under the Circular, such transaction data may need to be migrated to servers located within Nigeria.
-
-Managed in Nigeria
+```
+#### Managed in Nigeria
 
 This goes beyond simply storing data.
 
@@ -169,14 +173,14 @@ CBN requires that the data also be "managed" in Nigeria.
 
 Although the Circular does not define exactly what "managed" means, it may involve:
 
-Operational control of the data
-Administration of databases
-Data governance processes
-Data management activities
+1. Operational control of the data
+2. Administration of databases
+3. Data governance processes
+4. Data management activities
 
 This area may require further regulatory clarification.
 
-Why Is CBN Requiring Data Localisation?
+**Why Is CBN Requiring Data Localisation?**
 
 The Circular itself does not provide detailed explanations, but the stated objectives indicate several possible reasons.
 
@@ -184,9 +188,9 @@ Strengthening Regulatory Oversight
 
 If payment data is stored in Nigeria:
 
-Regulators can access information more easily.
-Supervisory reviews become more effective.
-Improving Operational Resilience
+1. Regulators can access information more easily.
+2. Supervisory reviews become more effective.
+3. Improving Operational Resilience
 
 Local hosting may reduce dependence on foreign infrastructure and external service disruptions.
 
@@ -196,14 +200,14 @@ Payment transaction data is considered important to the stability and security o
 
 Keeping it within Nigeria allows greater local oversight and control.
 
-Effective Date
+#### Effective Date
 When Must Institutions Comply?
 
-Effective Date: 1 January 2027.
+**Effective Date: 1 January 2027.**
 
 This means that by this date all affected institutions should have completed any required migration and operational adjustments.
 
-Practical Example
+**Practical Example**
 Before the Circular
 
 Imagine a Nigerian fintech:
@@ -224,16 +228,16 @@ Review cloud infrastructure arrangements.
 Adjust its data management practices.
 Operational Requirements
 
-To comply with the Circular, institutions should consider the following steps.
+#### To comply with the Circular, institutions should consider the following steps.
 
-1. Review Current Systems
+**1. Review Current Systems**
 
 Determine:
 
 Where transaction data is stored.
 Which systems process that data.
 Whether any data resides outside Nigeria.
-2. Review Cloud Providers
+**2. Review Cloud Providers**
 
 Organizations using cloud platforms should verify:
 
@@ -241,7 +245,7 @@ Data location
 Data residency settings
 Backup locations
 Disaster recovery architecture
-3. Review Third-Party Service Providers
+**3. Review Third-Party Service Providers**
 
 Many fintechs rely on:
 
@@ -251,7 +255,7 @@ Group technology companies
 
 Existing contracts may need review to ensure compliance.
 
-4. Update Policies and Procedures
+**4. Update Policies and Procedures**
 
 Organizations may need to update:
 
@@ -259,7 +263,7 @@ Data governance policies
 Data protection procedures
 Outsourcing arrangements
 Vendor management frameworks
-5. Maintain Compliance Evidence
+**5. Maintain Compliance Evidence**
 
 Institutions should be able to demonstrate:
 
@@ -270,7 +274,7 @@ Reporting and Oversight Implications
 
 Although the Circular does not introduce a separate data localisation reporting template, CBN retains oversight authority.
 
-CBN Monitoring
+#### CBN Monitoring
 
 CBN may:
 
@@ -290,13 +294,13 @@ Sanctions for Non-Compliance
 
 The Circular states that CBN may impose supervisory sanctions where institutions fail to comply with its requirements.
 
-Questions Requiring Legal Interpretation
+#### Questions Requiring Legal Interpretation
 
 The Circular establishes the requirement but does not answer every practical question.
 
 These issues may require legal advice or future clarification from CBN.
 
-1. Are Foreign Backups Allowed?
+**1. Are Foreign Backups Allowed?**
 
 The Circular requires payment transaction data to be stored and managed in Nigeria.
 
@@ -308,7 +312,7 @@ Disaster recovery environments
 
 may also exist outside Nigeria.
 
-2. Can Foreign Cloud Providers Still Be Used?
+**2. Can Foreign Cloud Providers Still Be Used?**
 
 For example:
 
@@ -320,14 +324,14 @@ The Circular does not expressly prohibit foreign cloud providers.
 
 The important question may be whether the data is physically located in Nigeria rather than who owns the infrastructure.
 
-3. What Exactly Does "Managed in Nigeria" Mean?
+**3. What Exactly Does "Managed in Nigeria" Mean?**
 
 The Circular does not define:
 
 Whether administrators must be located in Nigeria.
 Whether support teams can operate from abroad.
 Whether remote access from outside Nigeria is allowed.
-4. Does the Requirement Apply Only to Transaction Data?
+**4. Does the Requirement Apply Only to Transaction Data?**
 
 The Circular clearly mentions payment transaction data.
 
@@ -338,7 +342,7 @@ Compliance records
 Fraud analytics data
 Internal business intelligence data
 Customer service records
-5. Can Multinational Groups Continue Centralised Processing?
+**5. Can Multinational Groups Continue Centralised Processing?**
 
 Many global banking and fintech groups operate shared systems across multiple countries.
 
@@ -351,8 +355,10 @@ Simple Takeaway for Non-Fintech Readers
 
 Imagine every payment transaction as a document created inside Nigeria.
 
+```
 CBN is effectively saying:
 
 "If a payment transaction happens in Nigeria, the related transaction data should remain stored and controlled within Nigeria. We also want to know who truly owns payment companies and we want to prevent a few companies from becoming too dominant in the payments industry."
 
 For banks, fintechs, payment processors, and mobile money operators, the most important immediate action is to review where their payment data is stored today and ensure compliance with the new data localisation requirement before 1 January 2027.
+```
