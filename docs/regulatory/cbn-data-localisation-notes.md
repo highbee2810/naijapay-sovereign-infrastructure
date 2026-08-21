@@ -1,10 +1,12 @@
 # CBN Circular Explained in Simple Terms
 
 **Circular Title: Introduction of Market Structure Requirements, Data Localisation, Ultimate Beneficial Ownership Disclosure, and Systemic Oversight Measures in the Nigeria Payments System**
+
+```
  Issued By: Central Bank of Nigeria (CBN)
  Date Issued: 15 June 2026
  Applies To: Banks, fintechs, payment service providers, mobile money operators, switches, processors, super agents, and other participants in Nigeria's payments ecosystem.
-
+```
 ### Executive Summary
 
 The Central Bank of Nigeria (CBN) issued this circular because Nigeria's digital payments industry has grown rapidly in recent years. More Nigerians now transfer money electronically, use mobile banking apps, make card payments, and use fintech services.
@@ -25,8 +27,9 @@ Enhanced oversight and compliance monitoring.
 ### Part 1: Ultimate Beneficial Ownership (UBO) Disclosure
 What is a UBO?
 
-A Ultimate Beneficial Owner (UBO) is the real person who ultimately owns or controls a company, even if the ownership is hidden behind several companies or investment vehicles.
+An Ultimate Beneficial Owner (UBO) is the real person who ultimately owns or controls a company, even if the ownership is hidden behind several companies or investment vehicles.
 
+```
 Example
 
 Imagine:
@@ -36,6 +39,7 @@ Company C owns 100% of Company A.
 Mr. Ade owns 90% of Company C.
 
 Although Mr. Ade's name may not appear directly as an owner of Fintech B, he is the Ultimate Beneficial Owner because he ultimately controls the business.
+```
 
 What Does the Circular Require?
 
