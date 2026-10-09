@@ -1,0 +1,143 @@
+
+project: NaijaPay
+version: "1.0"
+status: proposed
+scope: fictional_reference_architecture
+
+data_categories:
+  - id: customer_pii
+    classification: confidential
+    contains_personal_data: true
+    examples:
+      - customer_id
+      - full_name
+      - phone_number
+      - email
+      - verification_status
+    primary_store: customer_database
+    proposed_residency: Nigeria
+    residency_validation: required
+    encryption_at_rest: required
+    encryption_in_transit: required
+    access_control: least_privilege
+    retention_policy: to_be_defined
+    owner: customer_operations
+    risks:
+      - unauthorised_disclosure
+      - identity_theft
+
+  - id: payment_transactions
+    classification: restricted
+    contains_personal_data: potentially
+    examples:
+      - transaction_id
+      - amount
+      - currency
+      - status
+      - processor_reference
+    primary_store: payment_database
+    proposed_residency: Nigeria
+    residency_validation: required
+    encryption_at_rest: required
+    encryption_in_transit: required
+    access_control: restricted_roles
+    retention_policy: to_be_defined
+    owner: payments_engineering
+    risks:
+      - data_exfiltration
+      - transaction_tampering
+      - fraud
+
+  - id: authentication_data
+    classification: restricted
+    contains_personal_data: potentially
+    examples:
+      - password_hash
+      - session_metadata
+      - mfa_event
+      - login_result
+    primary_store: authentication_store
+    proposed_residency: Nigeria
+    residency_validation: required
+    encryption_at_rest: required
+    encryption_in_transit: required
+    access_control: restricted_roles
+    retention_policy: to_be_defined
+    owner: security
+    risks:
+      - credential_compromise
+      - session_hijacking
+
+  - id: logs
+    classification: confidential
+    contains_personal_data: potentially
+    examples:
+      - timestamp
+      - service_name
+      - request_id
+      - error_code
+    primary_store: central_log_platform
+    proposed_residency: based_on_content
+    residency_validation: required
+    redaction: required
+    retention_policy: to_be_defined
+    owner: platform_engineering
+    risks:
+      - sensitive_data_leakage
+      - excessive_retention
+
+  - id: metrics
+    classification: internal
+    contains_personal_data: avoid
+    examples:
+      - cpu_utilisation
+      - request_rate
+      - latency
+      - error_rate
+    primary_store: prometheus
+    proposed_residency: based_on_content_and_rules
+    residency_validation: required
+    customer_identifiers_in_labels: prohibited
+    retention_policy: to_be_defined
+    owner: sre
+    risks:
+      - information_leakage
+      - excessive_cardinality
+
+  - id: backups
+    classification: inherits_source_classification
+    contains_personal_data: potentially
+    examples:
+      - database_snapshot
+      - database_archive
+    primary_store: approved_backup_repository
+    proposed_residency: same_approved_boundary_as_source
+    residency_validation: required
+    encryption_at_rest: required
+    restore_testing: required
+    retention_policy: to_be_defined
+    owner: database_operations
+    risks:
+      - unauthorised_restore
+      - foreign_replication
+      - backup_deletion
+
+  - id: audit_records
+    classification: restricted
+    contains_personal_data: potentially
+    examples:
+      - actor
+      - action
+      - resource
+      - timestamp
+      - outcome
+    primary_store: audit_repository
+    proposed_residency: based_on_content_and_rules
+    residency_validation: required
+    tamper_resistance: required
+    access_control: security_and_audit_roles
+    retention_policy: to_be_defined
+    owner: security_compliance
+    risks:
+      - log_tampering
+      - missing_audit_trail
